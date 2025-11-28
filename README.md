@@ -1,7 +1,7 @@
 # BAN6800_M4
 Module 4 Assignment: Business Analytics Model
 
-📘 README: Business Analytics Model Development (Milestone 2)
+**📘 README: Business Analytics Model Development (Milestone 2)
 
 Project: Databricks-Enabled Procurement Analytics Optimization
 Author: Taiwo Babalola
