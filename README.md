@@ -152,6 +152,6 @@ These insights directly support the goal of reducing PR→PO cycle time by 25%.
       - Organized datasets and code
 
 #  GitHub repository link
-    - URL: [![Uploading image.png…]()](https://github.com/AmazingTaiwo/BAN6800_M4.git)
+    - URL: https://github.com/AmazingTaiwo/BAN6800_M4.git
 
 
