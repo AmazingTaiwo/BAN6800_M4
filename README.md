@@ -8,14 +8,14 @@
 #  📌 Project Overview
 
     This repository contains all work completed for Milestone 1 and Milestone 2 of the Nexford University Business Analytics Project.
-    The goal is to optimize the Purchase Requisition (PR) → Purchase Order (PO) procurement cycle at ABC Logistics Limited by enabling        predictive insights using Databricks and machine       learning.
+    The goal is to optimize the Purchase Requisition (PR) → Purchase Order (PO) procurement cycle at ABC Logistics Limited by enabling predictive insights using Databricks and machine        learning.
 
-    The dataset used is the Gold Layer output from the Databricks Lakehouse pipeline, which integrates and transforms SAP S/4HANA             procurement data into a clean, analytics-ready form.
+    The dataset used is the Gold Layer output from the Databricks Lakehouse pipeline, which integrates and transforms SAP S/4HANA procurement data into a clean, analytics-ready form.
 
 #  Module 4: Builds two machine learning models:
 #  Classification Model – Predict whether a procurement process will breach SLA.
 #  Regression Model – Predict PR→PO cycle time (business days).
-  Both models use mandatory business dimensions (company code, plant, document type, vendor country) to ensure clarity for non-technical     stakeholders.
+    Both models use mandatory business dimensions (company code, plant, document type, vendor country) to ensure clarity for non-technical stakeholders.
 
 #  📂 Repository Structure
       /project/
@@ -24,7 +24,7 @@
       │   └── abc_dw_gl_pr_po_kpi.csv             # Gold Layer dataset
       │
       ├── notebooks/
-      │   ├── 01_eda_gold_layer.ipynb             # Module 4 EDA
+      │   ├── BAN6800_Module 4_Assignment_ Exploratory_Data_Analytics.ipynb        # Module 4 Exploratory Data Analysis
       │   └── BAN6800_Module 4_Assignment_ Business_Analytics_Model.ipynb          # Module 4 modeling notebook
       │
       ├── images/
@@ -33,19 +33,19 @@
       └── README.md                                # This file
 
 #  📊 Dataset Description (Gold Layer)
-  The dataset represents a fully cleaned and integrated procurement fact table, engineered through Databricks Bronze → Silver → Gold layers.
-  Key fields include:
-    - Procurement Dates (Business Process)
-    - pr_creationdate
-    - pr_approveddate
-    - po_createdon
-    - po_approvaldate
-    - Engineered KPIs
-    - pr_to_po_ageing (business days)
-    - pr_approval_ageing
-    - po_approval_ageing
-    - sla_breach_flag
-    - record_type (PR_ONLY, PO_ONLY, PR_PO_MATCHED)
+      The dataset represents a fully cleaned and integrated procurement fact table, engineered through Databricks Bronze → Silver → Gold layers.
+      Key fields include:
+        - Procurement Dates (Business Process)
+        - pr_creationdate
+        - pr_approveddate
+        - po_createdon
+        - po_approvaldate
+        - Engineered KPIs
+        - pr_to_po_ageing (business days)
+        - pr_approval_ageing
+        - po_approval_ageing
+        - sla_breach_flag
+        - record_type (PR_ONLY, PO_ONLY, PR_PO_MATCHED)
 
 #  Mandatory Dimensions
     -pr_companycode
@@ -124,13 +124,13 @@
 #  📈 Business Insights Extracted
       Using grouped summaries:
         🏢 By Company Code
-      Helps identify business units with the longest cycle times.
+            Helps identify business units with the longest cycle times.
         🏭 By Plant
-      Highlights operational units causing approval delays.
+            Highlights operational units causing approval delays.
         📄 By Document Type
-      Service POs and framework orders take the longest to approve.
+            Service POs and framework orders take the longest to approve.
         🌍 By Vendor Country
-      International vendors have significantly higher cycle times.
+            International vendors have significantly higher cycle times.
 These insights directly support the goal of reducing PR→PO cycle time by 25%.
 
 #  🚀 How to Run the Notebook
@@ -140,16 +140,17 @@ These insights directly support the goal of reducing PR→PO cycle time by 25%.
         - pip install pandas numpy scikit-learn matplotlib
         - Open Jupyter Notebook:
       jupyter notebook
+        - Run BAN6800_Module 4_Assignment_ Exploratory_Data_Analytics.ipynb
         - Run BAN6800_Module 4_Assignment_ Business_Analytics_Model.ipynb
 
 #  🎯 Deliverables for Submission
       - Cleaned and integrated dataset stored in GitHub
       - EDA notebook explaining data quality and preparation
-   ** Full modeling notebook**
-      - Classification + Regression results
-      - Visualizations (ROC curve, confusion matrix, feature importances)
-      - README documenting everything
-      - Organized datasets and code
+      - Full modeling notebook**
+          - Classification + Regression results
+          - Visualizations (ROC curve, confusion matrix, feature importances)
+          - README documenting everything
+          - Organized datasets and code
 
 #  GitHub repository link
     - URL: https://github.com/AmazingTaiwo/BAN6800_M4.git
