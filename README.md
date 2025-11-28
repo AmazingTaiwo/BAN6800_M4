@@ -8,14 +8,14 @@
 #  📌 Project Overview
 
     This repository contains all work completed for Milestone 1 and Milestone 2 of the Nexford University Business Analytics Project.
-    The goal is to optimize the Purchase Requisition (PR) → Purchase Order (PO) procurement cycle at ABC Logistics Limited by enabling predictive insights using Databricks and machine       learning.
+    The goal is to optimize the Purchase Requisition (PR) → Purchase Order (PO) procurement cycle at ABC Logistics Limited by enabling        predictive insights using Databricks and machine       learning.
 
-    The dataset used is the Gold Layer output from the Databricks Lakehouse pipeline, which integrates and transforms SAP S/4HANA procurement data into a clean, analytics-ready form.
+    The dataset used is the Gold Layer output from the Databricks Lakehouse pipeline, which integrates and transforms SAP S/4HANA             procurement data into a clean, analytics-ready form.
 
 #  Module 4: Builds two machine learning models:
 #  Classification Model – Predict whether a procurement process will breach SLA.
 #  Regression Model – Predict PR→PO cycle time (business days).
-  Both models use mandatory business dimensions (company code, plant, document type, vendor country) to ensure clarity for non-technical stakeholders.
+  Both models use mandatory business dimensions (company code, plant, document type, vendor country) to ensure clarity for non-technical     stakeholders.
 
   📂 Repository Structure
   /project/
@@ -24,8 +24,8 @@
   │   └── abc_dw_gl_pr_po_kpi.csv             # Gold Layer dataset
   │
   ├── notebooks/
-  │   ├── 01_eda_gold_layer.ipynb             # Milestone 1 EDA
-  │   └── 02_model_development.ipynb          # Milestone 2 modeling notebook
+  │   ├── 01_eda_gold_layer.ipynb             # Module 4 EDA
+  │   └── BAN6800_Module 4_Assignment_ Business_Analytics_Model.ipynb          # Module 4 modeling notebook
   │
   ├── images/
   │   └── charts_and_visuals/                 # Feature importance, ROC, confusion matrix, etc.
@@ -140,7 +140,7 @@ These insights directly support the goal of reducing PR→PO cycle time by 25%.
         - pip install pandas numpy scikit-learn matplotlib
         - Open Jupyter Notebook:
       jupyter notebook
-        - Run 02_model_development.ipynb
+        - Run BAN6800_Module 4_Assignment_ Business_Analytics_Model.ipynb
 
 #  🎯 Deliverables for Submission
       - Cleaned and integrated dataset stored in GitHub
