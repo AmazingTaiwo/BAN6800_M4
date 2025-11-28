@@ -17,20 +17,20 @@
 #  Regression Model – Predict PR→PO cycle time (business days).
   Both models use mandatory business dimensions (company code, plant, document type, vendor country) to ensure clarity for non-technical     stakeholders.
 
-  📂 Repository Structure
-  /project/
-  │
-  ├── data/
-  │   └── abc_dw_gl_pr_po_kpi.csv             # Gold Layer dataset
-  │
-  ├── notebooks/
-  │   ├── 01_eda_gold_layer.ipynb             # Module 4 EDA
-  │   └── BAN6800_Module 4_Assignment_ Business_Analytics_Model.ipynb          # Module 4 modeling notebook
-  │
-  ├── images/
-  │   └── charts_and_visuals/                 # Feature importance, ROC, confusion matrix, etc.
-  │
-  └── README.md                                # This file
+#  📂 Repository Structure
+      /project/
+      │
+      ├── data/
+      │   └── abc_dw_gl_pr_po_kpi.csv             # Gold Layer dataset
+      │
+      ├── notebooks/
+      │   ├── 01_eda_gold_layer.ipynb             # Module 4 EDA
+      │   └── BAN6800_Module 4_Assignment_ Business_Analytics_Model.ipynb          # Module 4 modeling notebook
+      │
+      ├── images/
+      │   └── charts_and_visuals/                 # Feature importance, ROC, confusion matrix, etc.
+      │
+      └── README.md                                # This file
 
 #  📊 Dataset Description (Gold Layer)
   The dataset represents a fully cleaned and integrated procurement fact table, engineered through Databricks Bronze → Silver → Gold layers.
@@ -135,7 +135,7 @@ These insights directly support the goal of reducing PR→PO cycle time by 25%.
 
 #  🚀 How to Run the Notebook
       Clone this repository:
-          - git clone https://github.com/<your_username>/<repo_name>.git
+          - git clone https://github.com/AmazingTaiwo/BAN6800_M4.git
       Install dependencies:
         - pip install pandas numpy scikit-learn matplotlib
         - Open Jupyter Notebook:
@@ -152,4 +152,6 @@ These insights directly support the goal of reducing PR→PO cycle time by 25%.
       - Organized datasets and code
 
 #  GitHub repository link
+    - URL: [![Uploading image.png…]()](https://github.com/AmazingTaiwo/BAN6800_M4.git)
+
 
